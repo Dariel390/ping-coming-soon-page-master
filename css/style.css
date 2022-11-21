@@ -9,7 +9,15 @@ body, html{
     height: 100vh;
 }
 
-input, buttonn{
+.copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--Gray);
+    padding: 30px;
+}
+
+input, button{
     border: none;
     background: none;
 }
